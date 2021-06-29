@@ -5,8 +5,9 @@
 
 class Squad : public ISquad {
     private:
-        ISpaceMarine* _arr;
+        ISpaceMarine** _arr;
         int _num;
+        void    clear(ISpaceMarine** arr, int n);
     public:
         Squad();
         Squad(const Squad&);

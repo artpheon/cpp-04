@@ -18,6 +18,7 @@ AMateria& AMateria::operator=(const AMateria& right) {
 AMateria::~AMateria() {}
 
 void AMateria::use(ICharacter& target) {
+    (void)target;
     _xp = _xp + 10;
 }
 

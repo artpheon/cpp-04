@@ -1,7 +1,7 @@
 #include "Character.hpp"
 
 Character::~Character() {
-    for (int i; i < 4; i++) {
+    for (int i = 0; i < 4; i++) {
         if (_materia[i])
             delete _materia[i];
     }

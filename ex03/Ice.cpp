@@ -9,7 +9,7 @@ Ice::Ice(const Ice& right) {
 }
 
 Ice& Ice::operator=(const Ice& right) {
-    this->operator=(right);
+    AMateria::operator=(right);
     //_type = right.getType();
     //_xp = right.getXP();
     return *this;

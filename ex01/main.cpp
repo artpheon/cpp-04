@@ -32,10 +32,6 @@ int main() {
     me->equip(pr);
     std::cout << *me;
     me->equip(pf);
-    me->attack(b);
-    me->attack(b);
-    me->attack(b);
-    me->attack(b);
     std::cout << *me;
     me->equip(pr);
     std::cout << *me;
